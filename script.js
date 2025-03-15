@@ -19,7 +19,7 @@ const locationsConfig = {
         { name: "17. Эйфелева башня", link: "https://www.google.com/maps/place/Эйфелева+башня/@48.8583701,2.2944813,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE" }
     ],
     "Example": [
-        { name: "Test", link: "Test" },
+        { name: "Testt", link: "Test" },
     ],
 };
 
