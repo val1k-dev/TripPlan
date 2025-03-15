@@ -16,9 +16,23 @@ const locationsConfig = {
         { name: "14. Пале Руаяль", link: "https://www.google.com/maps/place/Пале-Руаяль,+75001+Париж,+Франция/@48.8646588,2.3321773,16.75z/data=!4m6!3m5!1s0x47e66e24f70432e9:0x7e04de8a2eda4b55!8m2!3d48.865221!4d2.3353643!16s%2Fg%2F1225qptv" },
         { name: "15. Вандомская площадь", link: "https://www.google.com/maps/place/Pl.+Vendôme,+75001+Paris,+Франция/@48.8674043,2.3269886,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e31ee8c6305:0x6040cc8603a193e7!8m2!3d48.8674008!4d2.3295635!16zL20vMDM2cHdx" },
         { name: "16. Церковь Мадлен", link: "https://www.google.com/maps/place/Pl.+de+la+Madeleine,+75008+Paris,+Франция/@48.8699503,2.3223154,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e333de951b1:0xbb1122c9cd246bed!8m2!3d48.8699468!4d2.3248903!16s%2Fg%2F121_jb2m" },
-        { name: "17. Опера Гарнье", link: "https://www.google.com/maps/place/Pl.+de+l'Opéra,+Paris,+Франция/@48.870626,2.3295368,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e30dcb60c8d:0xdd43c68cb765f948!8m2!3d48.8706225!4d2.3321117!16s%2Fg%2F11bc5_818g" },
+        { name: "17. Опера Гарнье", link: "https://www.google.com/maps/place/Опера+Гарнье/@48.8705814,2.3320332,17.75z/data=!4m6!3m5!1s0x47e66e30d4668339:0xa9abf21c286d0767!8m2!3d48.8719697!4d2.3316014!16zL20vMGhyNnc?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
         { name: "18. Галерея Лафайет", link: "https://www.google.com/maps/place/40+Bd+Haussmann,+75009+Paris,+Франция/@48.8736324,2.3294406,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e3703e3bbb7:0x761a43269d50e900!8m2!3d48.8736289!4d2.3320155!16s%2Fg%2F11bw3fszhq" },
         { name: "19. Эйфелева башня", link: "https://www.google.com/maps/place/Эйфелева+башня/@48.8583701,2.2944813,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE" }
+    ],
+    "День 2": [
+        { name: "1. Площадь Трокадеро", link: "https://www.google.com/maps/place/Pl.+du+Trocad%C3%A9ro+et+du+11+Novembre,+Paris,+%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/@48.8603721,2.2956044,15.46z/data=!4m6!3m5!1s0x47e66ffb666721a5:0x8dbf34b77b272395!8m2!3d48.8626979!4d2.2875026!16s%2Fm%2F0w4q_r1?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "2. Мост Бир-Акейм", link: "https://www.google.com/maps/place/Pont+de+Bir-Hakeim,+Paris,+%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/@48.8588323,2.2946922,15.46z/data=!4m6!3m5!1s0x47e67002ce35f08b:0x89254392ed9a629e!8m2!3d48.8555812!4d2.287589!16s%2Fg%2F1tf86d6l?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "3. Эйфелева Башня", link: "https://www.google.com/maps/place/%D0%AD%D0%B9%D1%84%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0+%D0%B1%D0%B0%D1%88%D0%BD%D1%8F/@48.8588323,2.2946922,15.46z/data=!4m6!3m5!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "4. Марсово поле", link: "https://www.google.com/maps/place/%D0%9C%D0%B0%D1%80%D1%81%D0%BE%D0%B2%D0%BE+%D0%BF%D0%BE%D0%BB%D0%B5/@48.8588323,2.2946922,15.46z/data=!4m6!3m5!1s0x47e670209c1c4807:0x9702c4c43d00821e!8m2!3d48.8558047!4d2.2983766!16zL20vMDFmM2Rk?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "5. Статуя свободы", link: "https://www.google.com/maps/place/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%8F+%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B+%D0%B2+%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%D0%B5/@48.8573527,2.292943,15.46z/data=!4m6!3m5!1s0x47e6700655f59a43:0x196a515d7ff0d96b!8m2!3d48.8500168!4d2.2796956!16s%2Fg%2F125n0yycl?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "6. Ле-Бурже", link: "https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%B0%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%B8+%D0%B8+%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%B8%D0%BA%D0%B8/@48.9505861,2.4417001,14.58z/data=!3m1!5s0x47e66b6baad9e22b:0x50e83141dbbf73a4!4m6!3m5!1s0x478b082ab1d8decb:0x2de483e2dcd4c0b8!8m2!3d48.9476982!4d2.4356111!16zL20vMDdtXzgy?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "7. Версаль", link: "https://www.google.com/maps/place/78000+%D0%92%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C,+%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/@48.8697062,2.131796,10.79z/data=!4m6!3m5!1s0x47e67db475f420bd:0x869e00ad0d844aba!8m2!3d48.8022585!4d2.1297422!16zL20vMDgwZzM?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "8. Мулен Руж", link: "https://www.google.com/maps/place/%D0%9C%D1%83%D0%BB%D0%B5%D0%BD+%D0%A0%D1%83%D0%B6/@48.8828228,2.3276716,15.75z/data=!3m1!5s0x47e66e4eff4a3311:0x290e821789a4719e!4m6!3m5!1s0x47e66e4eff6f0c89:0xf44e90af87482111!8m2!3d48.8841232!4d2.3322519!16zL20vMGJ4Y2g?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "9. Стена любви", link: "https://www.google.com/maps/place/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0+%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8/@48.8828228,2.3277992,15.75z/data=!4m6!3m5!1s0x47e66e44e2a227af:0x641930356f5c6782!8m2!3d48.8848037!4d2.338578!16s%2Fm%2F012dsb4l?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "10. Площадь Луиз Мишель", link: "https://www.google.com/maps/place/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C+%D0%9B%D1%83%D0%B8%D0%B7+%D0%9C%D0%B8%D1%88%D0%B5%D0%BB%D1%8C/@48.8828228,2.3277992,15.75z/data=!4m6!3m5!1s0x47e66e43217a1e1b:0x32dfc9177bdf6e57!8m2!3d48.8850123!4d2.3433924!16s%2Fg%2F122x83qj?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "11. Сакре Кёр", link: "https://www.google.com/maps/place/%D0%91%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0+%D0%A1%D0%B0%D0%BA%D1%80%D0%B5-%D0%9A%D1%91%D1%80/@48.8828228,2.3277992,15.75z/data=!3m1!5s0x47e66e5ccbbf7941:0xe822cfb990602edb!4m6!3m5!1s0x47e66e4334868de3:0xcfc3870abe2b8519!8m2!3d48.8867046!4d2.3431043!16s%2Fg%2F1tdm30l7?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
+        { name: "12. Площадь Трокадеро", link: "https://www.google.com/maps/place/Pl.+du+Trocad%C3%A9ro+et+du+11+Novembre,+Paris,+%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/@48.8603721,2.2956044,15.46z/data=!4m6!3m5!1s0x47e66ffb666721a5:0x8dbf34b77b272395!8m2!3d48.8626979!4d2.2875026!16s%2Fm%2F0w4q_r1?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D" },
     ],
     "Example": [
         { name: "Testt", link: "Test" },
@@ -37,7 +51,7 @@ function renderTripPlan() {
             div.className = "location";
             div.innerHTML = `
                 ${location.name} 
-                <button onclick="window.open('${location.link}', '_blank')">Нажать</button>
+                <button onclick="window.open('${location.link}', '_blank')">Открыть ссылку</button>
             `;
             container.appendChild(div);
         });
